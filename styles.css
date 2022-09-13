@@ -39,7 +39,7 @@ html, body {
 
 .mid {
    background-color: white;
-   height: 500px; 
+   height: 350px; 
    display: flex;
    justify-content:center;
    align-items: center;
@@ -126,11 +126,19 @@ html, body {
 .call-to-action {
     margin-top: 120px;
     color: white;
-    background-color: blue;
+    background-color: #3882F6;
     height: 100px;
     width: 600px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 15px;
 }
